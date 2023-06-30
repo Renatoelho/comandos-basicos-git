@@ -54,10 +54,18 @@ git push origin <branch-destino>
 git pull origin <branch-origem>
 ```
 
-### Criando uma nova branch para seu repositório
+### Criando branch para seu repositório local e remoto
+
++ Criando uma branch para seu repositório local e remoto
 
 ```bash
-git branch <nova-branch>
+git branch <nova-branch> && git push -u origin <nova-branch>
+```
+
++ Criando e já selecionando localmente uma branch para seu repositório
+
+```bash
+git checkout -b <nova-branch> && git push -u origin <nova-branch>
 ```
 
 + Alterando para nova branch
@@ -70,6 +78,24 @@ git checkout <nova-branch>
 
 ```bash
 git checkout -b <nova-branch>
+```
+
++ Listando as branches locais
+
+```bash
+git branch
+```
+
++ Listando as branches remotas
+
+```bash
+git branch -r
+```
+
++ Listando toda as branches locais/remotas
+
+```bash
+git branch -a
 ```
 
 ### Movendo atualizações de um branch para outra
