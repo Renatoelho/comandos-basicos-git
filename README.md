@@ -2,6 +2,11 @@
 
 Segue uma lista de comandos git que podem ser utilizados na plataforma GitHub, isso é muito útil, pois existem comandos que utilizamos com pouca frequência que acabamos esquecendo sua sintaxe.
 
+### Clonando um repositório remoto
+
+```bash
+git clone <URL do seu repositório> <nome repositório clonado>
+```
 
 ### Vinculando um repositório local a um remoto
 
@@ -14,7 +19,7 @@ git init .
 ```
 
 ```bash
-git remote add origin https://github.com/Renatoelho/comandos-basicos-git.git
+git remote add origin <URL do seu repositório>
 ```
 
 ```bash
