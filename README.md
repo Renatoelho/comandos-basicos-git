@@ -94,6 +94,6 @@ git merge <branch-origem>
 Git, ***Reference***. Disponível em: <https://git-scm.com/docs>. Acesso em: 30 de jun. 2023.
 GitHub, ***Introdução***. Disponível em: <https://docs.github.com/pt/pages/quickstart#introduction>. Acesso em: 30 de jun. 2023.
 
-Teste de reversão de commits...
+
 
 
