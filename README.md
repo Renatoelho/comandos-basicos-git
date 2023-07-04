@@ -145,7 +145,7 @@ git checkout <branch-destino>
 git merge <branch-origem>
 ```
 
-> ***Observação:*** Durante o merge, o Git identifica as diferenças entre as branches envolvidas e aplica essas alterações na branch de destino. Se houver conflitos, o Git solicitará que você resolva manualmente esses conflitos, combinando as alterações de forma apropriada.
+> ***Observação:*** Durante o merge, o Git identifica as diferenças entre as branches envolvidas e aplica essas alterações na branch de destino. Se houver conflitos, o Git solicitará que você resolva manualmente esses conflitos, combinando as alterações de forma apropriada ou passe o parâmetro ```-f``` para forçar o merge. Ex.: ```git merge -f <branch-origem>```.
 
 
 # Referências
