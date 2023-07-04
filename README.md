@@ -131,6 +131,7 @@ git branch -r
 git branch -a
 ```
 
+
 ### Movendo atualizações de um branch para outra
 
 + Acesse a branch de destino
@@ -148,12 +149,31 @@ git merge <branch-origem>
 > ***Observação:*** Durante o merge, o Git identifica as diferenças entre as branches envolvidas e aplica essas alterações na branch de destino. Se houver conflitos, o Git solicitará que você resolva manualmente esses conflitos, combinando as alterações de forma apropriada ou passe o parâmetro ```-f``` para forçar o merge. Ex.: ```git merge -f <branch-origem>```.
 
 
+### Clonando uma branch remota para repositório local
+
++ Identifique as branches que existem remotas e que você quer clonar local
+
+```bash
+git branch -a
+```
+
++ Copiando a branch remota para local
+
+```bash
+git checkout -b <branch-local> origin/<branch-remota>
+```
+
+> ***IMPORTANTE***: Use o mesmo nome da branch remota para a local, pois facilita e evita confusões ma manipulação da branch.
+
++ Agora você tem uma cópia local da branch desejada clonada em seu computador. Você pode alternar para essa branch e trabalhar nela usando o comando git checkout
+
+```bash
+git checkout <branch-local>
+```
+
+
 # Referências
 
 Git, ***Reference***. Disponível em: [\<https://git-scm.com/docs\>](https://git-scm.com/docs). Acesso em: 30 de jun. 2023.
 
 GitHub, ***Introdução***. Disponível em: [\<https://docs.github.com/pt/pages/quickstart#introduction\>](https://docs.github.com/pt/pages/quickstart#introduction). Acesso em: 30 de jun. 2023.
-
-
-
-
