@@ -54,6 +54,33 @@ git commit -am”Descrição das alterações mapeadas…”
 git push origin <branch-destino>
 ```
 
+
+### Listando todos os commits já feitos no repositório.
+
+```bash
+git reflog
+```
+
+Ou
+
+```bash
+git log --pretty=oneline 
+```
+
+
+### Voltando um determinado commit (Remoto)
+
+```bash
+git revert <Id do commit>
+```
+
+```bash
+git push origin <branch-destino>
+```
+
+> ***Observação***: Utilize o comando git reflog para pegar o ID do commit que deve ser revertido.
+
+
 ### Baixando atualizações remotas para repositório local
 
 ```bash
