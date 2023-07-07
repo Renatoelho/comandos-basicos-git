@@ -172,8 +172,35 @@ git checkout <branch-local>
 ```
 
 
+### Semântica para os commits 
+
+|Tipo | Detalhe |
+|-----|---------|
+|Feat | Implementação de novas funcionalidades.|
+|Fix | Resolução de bugs ou problemas no código.|
+|Refactor | Refatoração de código.|
+|Style | Ajustes na formatação do código.|
+|Chore | Mudanças em ferramentas, configurações e bibliotecas.|
+|Test | Mudança em testes da aplicação.|
+|Doc | Alterações no README.md e/ou na documentação do projeto.|
+
++ ***Sintaxe:***
+
+```bash
+git commit -am’<Tipo>: <Descrição>’
+```
+
++ ***Exemplo:***
+
+```bash
+git commit -am’Doc: atualização do README do repositório…’
+```
+
+
 # Referências
 
 Git, ***Reference***. Disponível em: [\<https://git-scm.com/docs\>](https://git-scm.com/docs). Acesso em: 30 de jun. 2023.
 
 GitHub, ***Introdução***. Disponível em: [\<https://docs.github.com/pt/pages/quickstart#introduction\>](https://docs.github.com/pt/pages/quickstart#introduction). Acesso em: 30 de jun. 2023.
+
+Semantic-release, ***Introduction***. Disponível em: [\<https://semantic-release.gitbook.io/semantic-release/v/beta/\>](https://semantic-release.gitbook.io/semantic-release/v/beta/). Acesso em: 06 de jul. 2023.
